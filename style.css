@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    height: fit-content;
+    background-color: #DBC7C9;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #88A795;
+    border-bottom: 4px solid #BC7B77;
+}
+
+.header-wrapper {
+    width: 1000px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-content: space-between;
+    align-items: center;
+}
+
+.logo-and-text {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-left: 5px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.header-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.search-form {
+    position: relative;
+    display: flex;
+}
+
+.search {
+    width: 250px;
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+.form-input {
+    font-family: "Gabarito", sans-serif;
+    padding-left: 5px;
+    height: 30px;
+    margin-top: 20px;
+    width: 240px;
+    background-color: #DBC7C9;
+    border: 2px solid #BC7B77;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.form-button {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 225px;
+    background-image: url("./img/magnifier-left-svgrepo-com.svg");
+}
+
+.form-cross {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+
+.form-cross:hover {
+    cursor: pointer;
+}
+
+.pic-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.photo {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #88A795;
+    border-top: 4px solid #BC7B77;
+    margin-top: 15px;
+}
+
+.footer-wrapper {
+    width: 1000px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: nox  wrap;
+}
+
+.footer-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+.footer-pic {
+    width: 50px;
+    display: flex;
+}
+
+a .footer-pic:hover {
+    opacity: 50%;
+}
